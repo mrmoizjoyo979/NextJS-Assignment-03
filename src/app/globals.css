@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homeContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  border: 2px solid;
+  box-shadow: 2px 2px 5px white;
+}
+
+.childContainer{
+  width: fit-content;
+  height: 320px;
+  margin: 40px;
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+}
+
+.profile{
+  border-radius: 50%;
+  box-shadow: black;
+}
+
+.greyColor{
+  color: grey;
+  box-shadow: white;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  gap: 25px;
+  background-color: gray;
+  box-shadow: 3px 3px 6px black;
+}
+
+.header li{
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+.header :active{
+  color: violet;
+}
+
+.header li :hover{
+  color: white;
+}
+
+.footer{
+  height: 80px;
+  background-color: grey;
+}
+
+h1 , p{
+  text-align: center;
+  padding: 5px;
+  font-weight: 600;
+  color: aliceblue;
+}
+
+.container{
+  width: fit-content;
+  color: Black;
+  font-weight: 900;
+  font-size: 40px;
+  height: 320px;
+  margin: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
